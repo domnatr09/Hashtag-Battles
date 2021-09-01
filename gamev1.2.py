@@ -134,7 +134,7 @@ while True:
           choice = input("Type Y to attack, or type S to go to the shop. ")
     while choice.upper() != "Y" and choice.upper() != "S":
       print("That is an invalid input, please try again.")
-      print("You have ⏣ " + str(coins) + ", your opponent has " + str(hp2) + "health, and you have " + str(hp) + " health.")
+      print("You have ⏣ " + str(coins) + ", your opponent has " + str(hp2) + " health, and you have " + str(hp) + " health.")
       choice = input("Type Y to attack, or type S to go to the shop.")
     if choice.upper() == "Y":
         user_fire()
